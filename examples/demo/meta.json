@@ -1,0 +1,9 @@
+{
+  "num_poi": 37,
+  "num_category": 8,
+  "num_user": 12,
+  "events": 432,
+  "unseen_val_test_interactions": 0,
+  "candidate_policy": "known training POIs only, unknown targets excluded from evaluation and counted",
+  "coordinate_standardization": "none; degrees mapped to [-1,1] within model, no test-fitted statistics"
+}

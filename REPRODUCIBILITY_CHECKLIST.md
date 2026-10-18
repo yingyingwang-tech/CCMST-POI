@@ -1,0 +1,22 @@
+# Manuscript-to-code compliance checklist
+
+- [x] POI, hour, day, category, coordinate, position contexts (specific fusion chosen: concat + linear)
+- [x] Three windowed causal attention branches with learned pairwise relation bias
+- [x] Per-branch logits and supervised branch loss
+- [x] Detached relative-performance distribution, instancewise
+- [x] Quality-conditioned softmax fusion and KL target
+- [x] Validation-only temperature fitting
+- [x] Full candidate rank metrics and probability metrics
+- [x] Multi-fusion control modes
+- [x] Random/block/recent missingness and basic temporal/spatial perturbation
+- [x] Cluster bootstrap confidence intervals for paired per-instance outputs
+- [x] Trainable pairwise time/geo/semantic attention bias (exact original parameterization unverified)
+- [ ] Native NYC/TKY/Gowalla file adapters and checksum-verified benchmark releases
+- [ ] Training-only cohort construction / leakage audit
+- [ ] Named baseline reproduction or proven official checkpoints
+- [ ] Full prediction-time constrained perturbation protocol
+- [ ] Per-seed automation with paired randomization tests and adjusted p-values
+- [ ] Full branch reliability failure analysis and target leakage tests
+- [ ] Global-time shift and strict zero-shot new-user cold-start
+- [ ] Real dataset verification against manuscript tables
+- [ ] Final GitHub release and Zenodo DOI
